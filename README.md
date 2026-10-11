@@ -9,7 +9,7 @@
 ██║  ██║███████║██║ ╚═╝ ██║    ███████╗██║ ╚═╝ ██║╚██████╔╝███████╗██║  ██║   ██║   ╚██████╔╝██║  ██║
 ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝    ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
 ```
-**By Muhammad
+**By Muhammad Balal
 [![Cybersecurity Projects](https://img.shields.io/badge/Cybersecurity--Projects-Project%20%2333-red?style=flat&logo=github)](https://github.com/muhammadbalalansar/hsm-emulator)
 [![Zig](https://img.shields.io/badge/Zig-0.16.0-F7A41D?style=flat&logo=zig&logoColor=white)](https://ziglang.org)
 [![PKCS#11](https://img.shields.io/badge/PKCS%2311-v2.40-4B7BEC?style=flat)](https://docs.oasis-open.org/pkcs11/pkcs11-base/v2.40/errata01/os/pkcs11-base-v2.40-errata01-os.html)
