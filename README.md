@@ -218,7 +218,7 @@ hsm-emulator/
 │       ├── mac.zig         # HMAC-SHA-2 union
 │       ├── cipher.zig      # AES-CBC/CBC-PAD/GCM + RFC 3394 key wrap
 │       ├── ecdsa.zig       # P-256/384 keygen, sign, verify, ECDH, curve OID + EC point DER
-│       ├── rsa.zig         # the stateless libcrypto RSA bridge
+│       ├── rsa.zig         # t | cateless libcrypto RSA bridge
 │       └── keystore.zig    # master-key gen, wrap/unwrap, seal/unseal envelope
 ├── tests/abi_test.zig     # @sizeOf/@offsetOf/constant/signature cross-check vs OASIS
 ├── examples/smoke.zig     # loads the built .so via dlopen and drives the whole lifecycle
@@ -245,5 +245,4 @@ Each milestone ends with a proof from a real external tool. No feature is "done"
 | **M12** ✅ | Learn modules + mechanism reference | this `learn/` track |
 
 ## License
-
 [AGPL 3.0](LICENSE). The vendored OASIS headers under `vendor/pkcs11/` keep their original copyright and are used only for the build-time cross-check.
