@@ -22,7 +22,6 @@
 [![YouTube Learn Video](https://img.shields.io/badge/YouTube-Learn-red?logo=youtube&logoColor=white)](https://youtu.be/Na-bmX9px4g)
 [![Cybersecurity Project Walkthrough](https://img.youtube.com/vi/Na-bmX9px4g/maxresdefault.jpg)](https://youtu.be/Na-bmX9px4g)
 
-
 ## Why PKCS#11 in Zig
 
 PKCS#11 (Cryptoki) is the C-ABI standard that smartcards, YubiKeys, and cloud HSMs all speak. A conforming module is a `.so` that exports one function, `C_GetFunctionList`, returning a 68-entry table of function pointers in a *fixed canonical order*. Get one struct offset or one pointer slot wrong and the host loads garbage.
