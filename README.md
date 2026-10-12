@@ -243,6 +243,3 @@ Each milestone ends with a proof from a real external tool. No feature is "done"
 | **M10** ✅ | Crypto surface: GCM streaming, dual-function, Sign/VerifyRecover, op-state | chunked GCM equals one-shot, recover round-trips |
 | **M11** ✅ | Conformance pass + `CONFORMANCE.md` | every N/A boundary asserted against the built `.so` |
 | **M12** ✅ | Learn modules + mechanism reference | this `learn/` track |
-
-## License
-[AGPL 3.0](LICENSE). The vendored OASIS headers under `vendor/pkcs11/` keep their original copyright and are used only for the build-time cross-check.
