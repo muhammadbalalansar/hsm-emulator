@@ -62,7 +62,7 @@ This is not a stub. A host can drive the module through a complete key lifecycle
 **Encrypted at rest, zeroized in RAM**
 - Token objects persist to a file. Sensitive attribute *values* are sealed with AES-256-GCM under a per-token master key
 - The master key is wrapped under a single User-PIN keyslot (Argon2id-derived KEK). There is no Security-Officer keyslot for user secrets by design
-- On `C_Logout`, `C_CloseAllSessions`, and `C_Finalize`, sealed secrets are re-sealed and the master key is wiped with `std.crypto.secureZero`. A failed re-seal fails closed (the plaintext is scrubbed in place)
+- On `C_Logout`, `C_CloseAllSessions`, and `C_Finalize`, sealed secrets are re-sealed and the master key is wiped with `std.crypto.secureZero`. A failed re-seal fails closed (the plaintext is scrubbed in place). 
 
 See [`learn/CONFORMANCE.md`](learn/CONFORMANCE.md) for the precise return code at every deliberate boundary.
 
