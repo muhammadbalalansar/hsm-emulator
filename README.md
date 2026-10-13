@@ -104,7 +104,7 @@ Slot 0 (0x0): AngelaMos HSM Emulator Slot 0
 >
 > Install: `curl -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin`
 
-## Learn:
+## Learn
 
 This project ships a full teaching track. Read it in order, or jump to what you need.
 
