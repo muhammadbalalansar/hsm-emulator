@@ -24,7 +24,7 @@
 
 ## Why PKCS#11 in Zig:
 
-PKCS#11 (Cryptoki) is the C-ABI standard that smartcards, YubiKeys, and cloud HSMs all speak. A conforming module is a `.so` that exports one function, `C_GetFunctionList`, returning a 68-entry table of function pointers in a *fixed canonical order*. Get one struct offset or one pointer slot wrong and the host loads garbage.
+PKCS#11 (Cryptoki) is the C-ABI standard that smartcards, YubiKeys, and cloud HSMs all speak. A conforming module is a `.so` that exports one function, `C_GetFunctionList`, returning a 68-entry table of function pointers in a *fixed canonical order*. Get one struct offset or one pointer slot wrong ,and the host loads garbage.
 
 That makes it a near-perfect showcase for Zig's C interop: `extern struct` with natural alignment, `callconv(.c)`, a version script that exports exactly one symbol, and a hand-written ABI that is **machine-checked against the official OASIS headers at build time**. On top of that ABI sits a real HSM: a login model, an attribute-bag object store, a full set of cryptographic mechanisms, and encrypted-at-rest key storage.
 
