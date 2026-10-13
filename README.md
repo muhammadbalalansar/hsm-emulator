@@ -28,7 +28,7 @@ PKCS#11 (Cryptoki) is the C-ABI standard that smartcards, YubiKeys, and cloud HS
 
 That makes it a near-perfect showcase for Zig's C interop: `extern struct` with natural alignment, `callconv(.c)`, a version script that exports exactly one symbol, and a hand-written ABI that is **machine-checked against the official OASIS headers at build time**. On top of that ABI sits a real HSM: a login model, an attribute-bag object store, a full set of cryptographic mechanisms, and encrypted-at-rest key storage.
 
-## What Works Today:
+## What Works Today
 
 This is not a stub. A host can drive the module through a complete key lifecycle, and every capability below is exercised by a cross-process `pkcs11-tool` run, an in-process smoke harness against the built `.so`, and unit tests.
 
