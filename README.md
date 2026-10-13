@@ -174,7 +174,7 @@ No Zig or OpenSC on the host? The container builds the module and drives it end 
 just docker-demo        # build the image, then run the full pkcs11-tool demo
 ```
 
-Or with Docker directly:
+Or with Docker directly
 
 ```bash
 docker build -t angelamos-hsm:latest .
