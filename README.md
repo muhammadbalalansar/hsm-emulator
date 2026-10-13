@@ -66,7 +66,7 @@ This is not a stub. A host can drive the module through a complete key lifecycle
 
 See [`learn/CONFORMANCE.md`](learn/CONFORMANCE.md) for the precise return code at every deliberate boundary.
 
-## Quick Start:
+## Quick Start
 
 ```bash
 git clone https://github.com/CarterPerez-dev/Cybersecurity-Projects.git
