@@ -242,4 +242,4 @@ Each milestone ends with a proof from a real external tool. No feature is "done"
 | **M9** ✅ | Key management: wrap / unwrap, ECDH derive, digest-key | RFC 3394 KAT, ECDH matches `openssl pkeyutl -derive` |
 | **M10** ✅ | Crypto surface: GCM streaming, dual-function, Sign/VerifyRecover, op-state | chunked GCM equals one-shot, recover round-trips |
 | **M11** ✅ | Conformance pass + `CONFORMANCE.md` | every N/A boundary asserted against the built `.so` |
-| **M12** ✅ | Learn modules + mechanism reference | this `learn/` track |
+| **M12** ✅ | Learn modules + mechanism reference | this `learn/` track. 
