@@ -74,6 +74,7 @@ cd Cybersecurity-Projects/PROJECTS/advanced/hsm-emulator
 ./install.sh
 ```
 
+
 `install.sh` checks for Zig 0.16, OpenSC, and OpenSSL, builds the module in ReleaseSafe, runs the ABI cross-check plus the smoke test, and confirms `pkcs11-tool` can load it. Then drive it like any real token. Point both storage paths at a scratch directory so you do not write into `$HOME`:
 
 ```bash
