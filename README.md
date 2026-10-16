@@ -226,7 +226,7 @@ hsm-emulator/
 └── vendor/pkcs11/         # unmodified OASIS v2.40 headers (build-time cross-check only)
 ```
 
-## Roadmap
+## Roadmap:
 
 Each milestone ends with a proof from a real external tool. No feature is "done" until `pkcs11-tool` or OpenSSL exercises it.
 
