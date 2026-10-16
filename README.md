@@ -228,7 +228,7 @@ hsm-emulator/
 
 ## Roadmap:
 
-Each milestone ends with a proof from a real external tool. No feature is "done" until `pkcs11-tool` or OpenSSL exercises it.
+Each milestone ends  with a proof from a real external tool. No feature is "done" until `pkcs11-tool` or OpenSSL exercises it.
 
 | Milestone | Scope | Proof |
 |-----------|-------|-------|
