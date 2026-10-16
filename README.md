@@ -93,6 +93,7 @@ pkcs11-tool --module $MOD -l --pin 1234 \
     --input-file message.bin --output-file sig.bin
 ```
 
+
 ```
 Available slots:
 Slot 0 (0x0): AngelaMos HSM Emulator Slot 0
