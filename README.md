@@ -167,7 +167,7 @@ The smoke harness in `examples/smoke.zig` is not a unit test. It `dlopen`s the *
 > [!NOTE]
 > Plain `zig build` produces a **Debug** binary. The shipped artifact is `--release=safe` (ReleaseSafe), which keeps every undefined-behavior check live and turns it into a fail-closed trap rather than silent corruption. Set both `ANGELAMOS_HSM_TOKEN` and `ANGELAMOS_HSM_OBJECTS` to a scratch path for tests and tool runs, or the module falls back to `$HOME/.angelamos-hsm-*`.
 
-## Run in Docker
+## Run in Docker:
 
 No Zig or OpenSC on the host? The container builds the module and drives it end to end through `pkcs11-tool`: token init, RSA and EC keygen and signing, AES-CBC round-trip, all inside the image.
 
